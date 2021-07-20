@@ -15,8 +15,6 @@ namespace FontLoader
         
         public override void OnLoad(Harmony harmony)
         {
-            Debug.Log($"{ns} OnLoad.");
-
             fc = ConfigManager.Instance.LoadConfigFile();
             font = FontUtil.LoadFontAsset(fc);
 

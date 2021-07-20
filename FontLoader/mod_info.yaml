@@ -1,5 +1,4 @@
-# either or both of VANILLA_ID, EXPANSION1_ID, ALL
-supportedContent: ALL
-minimumSupportedBuild: 469369
-version: "2.0.2"
+supportedContent: VANILLA_ID, EXPANSION1_ID
+minimumSupportedBuild: 471883
+version: "2.0.3"
 APIVersion: 2
